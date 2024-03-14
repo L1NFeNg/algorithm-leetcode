@@ -10,7 +10,6 @@ let map = new Map([
  * @return {boolean}
  */
 let isValid = function (s) {
-  let result = false;
   let brackets = [];
   for (const bracket of s) {
     if (bracket === "(" || bracket === "[" || bracket === "{") {
