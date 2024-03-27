@@ -47,7 +47,7 @@ let addTwoNumbers = function (l1, l2) {
 
   // l1 还有 ，l2 还有
   if (l1.next !== null && l2.next !== null) {
-    node.next = addTwoNumbers(l1.next, l2.next);
+    node.next = v1MyAddTwoNumbers(l1.next, l2.next);
     return node;
   }
 
