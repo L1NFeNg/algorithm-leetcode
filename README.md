@@ -13,12 +13,13 @@ this project (will) use `Git Commit Angular standard`.
 
 ### Part1: type
 
-| type | description                  |
-| ---- | ---------------------------- |
-| feat | add a new algorithm          |
-| perf | better answer                |
-| docs | Modify the .md or other docs |
-| test | add a test case              |
+| type  | description                                     |
+| ----- | ----------------------------------------------- |
+| feat  | add a new algorithm                             |
+| perf  | better answer                                   |
+| docs  | Modify the .md or other docs                    |
+| test  | add a test case                                 |
+| chore | Changes to the build process or auxiliary tools |
 
 ---
 
@@ -39,5 +40,7 @@ the algorithm's main function's name.
 ​	`feat(5): longestPalindrome`
 
 ​	`docs: add the Git Commit Angular standard`
+
+​	`chore: change the .gitignore docs`
 
 ---
